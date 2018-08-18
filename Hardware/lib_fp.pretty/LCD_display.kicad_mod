@@ -1,0 +1,17 @@
+(module LCD_display (layer F.Cu) (tedit 5AC83CFE)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LCD_display (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 17 19.5) (end 17 -19.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -17 -19.5) (end -17 19.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start 17 19.5) (end -17 19.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -17 -19.5) (end 17 -19.5) (layer F.SilkS) (width 0.15))
+  (model "${KIPRJMOD}/3d/LCD Display.STEP"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

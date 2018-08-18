@@ -1,0 +1,42 @@
+### Module positions - created on 05/29/18 00:04:57 ###
+### Printed by Pcbnew version kicad (5.0.0-rc2-dev-321-g78161b592)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                                        PosX       PosY       Rot  Side
+C1        47pF               C_0201                                     -87.3000   -84.1000   90.0000  bottom
+C2        47pF               C_0201                                     -87.3000   -80.7000   90.0000  bottom
+C3        0.1uF              C_0201                                     -85.8000   -78.5250    0.0000  bottom
+C4        4.7uF              C_0603                                     -92.4000   -82.5000  270.0000  bottom
+C5        1nF                C_0201                                     -91.4250   -97.1500  270.0000  bottom
+C6        4.7uF              C_0603                                    -100.3000   -82.6000  270.0000  bottom
+C7        0.1uF              C_0201                                     -90.6000   -95.3000    0.0000  bottom
+C8        0.1uF              C_0201                                     -97.6000   -97.7000  180.0000  bottom
+C10       0.1uF              C_0201                                    -101.7000  -100.7000   90.0000  bottom
+C11       0.1uF              C_0201                                     -99.2000  -107.6000  139.3000  bottom
+C12       0.1uF              C_0201                                    -141.6500  -103.2500    0.0000  bottom
+D1        RED                LED_0603                                   -80.6000   -89.6000  270.0000  bottom
+D2        D_Schottky         D_0603                                     -88.0100   -90.3500  180.0000  bottom
+J1        Micro_USB          MicroUSB-10118192-0001LF                   -78.5000   -82.1000   90.0000  bottom
+J2        Micro_SD_Card_SPI  MicroSD-Socket-1140084168                 -114.7000  -109.7000  139.3000  bottom
+J3        LiPo_Battery       JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled     -105.5000   -92.3000  270.0000  bottom
+J4        JTAG               Pin_Header_Straight_2x05_Pitch1.27mm_SMD  -120.4500   -60.8500  270.0000  bottom
+Q1        FDN360P            SuperSOT-3                                 -92.6300   -91.3200    0.0000  bottom
+R1        27R                R_0201                                     -87.5610   -82.8950    0.0000  bottom
+R2        27R                R_0201                                     -87.5610   -81.9550    0.0000  bottom
+R3        470R               R_0201                                     -82.6000   -89.7000  270.0000  bottom
+R4        2.0k               R_0201                                     -94.7000   -79.6000  270.0000  bottom
+R5        806k               R_0201                                     -92.7750   -97.1250  270.0000  bottom
+R6        2M                 R_0201                                     -92.1750   -95.5750  270.0000  bottom
+R17       10k                R_0201                                     -90.6000   -85.2000    0.0000  bottom
+R18       4.7k               R_0201                                    -134.3000  -140.1500  180.0000  bottom
+R19       4.7k               R_0201                                    -130.9000  -140.1500    0.0000  bottom
+R20       33R                R_0201                                    -145.3500  -102.6000  180.0000  bottom
+R25       10k                R_0201                                    -181.8000   -92.4500   90.0000  bottom
+R26       10k                R_0201                                    -193.1000   -86.0000   90.0000  bottom
+R27       10M                R_0201                                    -168.9000  -103.0000    0.0000  bottom
+SW1       Power              SW_SPDT_CK-JS102011SAQN                    -82.2000   -97.3000   90.0000  bottom
+U2        FT230XS            SSOP-16_3.9x4.9mm_Pitch0.635mm             -89.7000   -72.8500  213.6000  bottom
+U3        MCP73832-2-OT      TSOT-23-5                                  -96.7000   -82.3000  180.0000  bottom
+U6        TPS73633DBVT       TSOT-23-5                                  -97.6000  -100.7000    0.0000  bottom
+U7        BMD-300-A-R        RIGADO_BMD-300-A-R                        -109.5000   -68.2000  270.0000  bottom
+## End
