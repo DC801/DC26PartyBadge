@@ -332,7 +332,7 @@ static void ble_evt_handler(ble_evt_t const *p_ble_evt, void *p_context) {
 
                     // Parsed OK
                     // Is this a defcon badge?
-                    if (adv.appearance == badgeYear_25 || adv.appearance == badgeYear_26) {
+                    if (getBadgeYear(adv.appearance)) {
                         // Yes
 
                         BADGE_ADV badge;
@@ -728,6 +728,32 @@ void advertising_setGodCommand(GODMODE_COMMAND command, uint32_t data){
     ble_adv_init();
     ble_adv_start();
 
+}
+
+/**
+ * @param year we want info on
+ * @return string, group name
+ */
+uint8_t getBadgeYear(BADGE_YEAR year){
+	switch (year)
+	{
+	case badgeYear_25:
+		printf("year 25\n");
+		return 25;
+		break;
+	case badgeYear_26:
+		printf("year 26\n");
+		return 26;
+		break;
+	case badgeYear_27:
+		printf("year 26\n");
+		return 27;
+		break;
+	default: // code to be executed if n doesn't match any cases
+		return 0;
+		break;
+	}
+	return 0;
 }
 
 /**
