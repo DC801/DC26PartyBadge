@@ -46,10 +46,11 @@ static void drawItems(BADGE_ADV *badge, uint8_t numItems, uint8_t startRow){
         util_gfx_set_font(FONT_VERAMONO_5PT);
 
         // First row
+        printf("numItems %d", numItems);
         snprintf(row, 25, "%d %02X%02X%02X%02X%02X%02X DC%d", i + startRow + 1,
                 badge[i + startRow].mac[0], badge[i + startRow].mac[1], badge[i + startRow].mac[2],
                 badge[i + startRow].mac[3], badge[i + startRow].mac[4], badge[i + startRow].mac[5],
-                 badge[i + startRow].year == badgeYear_25 ? 25 : 26);
+                getBadgeYear(badge[i + startRow].year));
         util_gfx_print(row);
 
         // Second row

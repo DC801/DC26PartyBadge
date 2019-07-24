@@ -26,6 +26,7 @@ typedef struct{
 typedef enum {
     badgeYear_25    = 0x19DC,
     badgeYear_26    = 0x26DC,
+    badgeYear_27    = 0x27DC,
     NUM_BADGE_YEARS
 } BADGE_YEAR;
 
@@ -89,6 +90,7 @@ bool parseAdvertisementData(uint8_t *data, uint8_t len, ADVERTISEMENT *adv);
 uint8_t getBadges(BADGE_ADV *badges);
 bool getBadge(uint8_t index, BADGE_ADV *badge);
 uint8_t getBadgeNum(void);
+uint8_t getBadgeYear(BADGE_YEAR year);
 char* getBadgeGroupName(BADGE_GROUP group);
 char* getBadgeIconFile(BADGE_GROUP group);
 char* getBadgeContact(BADGE_GROUP group);
